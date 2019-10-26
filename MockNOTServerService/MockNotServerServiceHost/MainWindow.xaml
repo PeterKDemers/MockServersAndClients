@@ -1,0 +1,21 @@
+﻿<Window x:Class="MockNotServerServiceHost.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="800" Width="800">
+    <Grid>
+        <Button Name="buttonStartService" Content="Start Service" Foreground="Blue" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Top" Width="85" Margin="11,9,0,0" Click="buttonStartService_Click"/>
+        <ListBox Name="listBox1" HorizontalAlignment="Left" Height="97" VerticalAlignment="Top" Width="772" Margin="10,662,0,0"/>
+        <TextBox Name="textBoxUpDown" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="23" Text="{Binding UpDownText}" Background="{Binding UpDownBackground}" Foreground="White" FontWeight="Bold" VerticalAlignment="Top" Width="62" Margin="102,6,0,0"/>
+        <TextBox Name="textBox1" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Text="{Binding TextBox1Text}" Visibility="{Binding TextBox1Visibility}" Foreground="Blue" Background="LawnGreen" FontWeight="Bold" FontSize="18" Width="600" Margin="19,53,0,0"/>
+        <TextBox Name="textBox2" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Text="{Binding TextBox2Text}" Visibility="{Binding TextBox2Visibility}" Foreground="Blue" Background="LawnGreen" FontWeight="Bold" FontSize="18" Width="600" Margin="19,83,0,0"/>
+        <TextBox Name="textBox3" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Text="{Binding TextBox3Text}" Visibility="{Binding TextBox3Visibility}" Foreground="Blue" Background="LawnGreen" FontWeight="Bold" FontSize="18" Width="600" Margin="19,113,0,0"/>
+        <TextBox Name="textBox4" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Text="{Binding TextBox4Text}" Visibility="{Binding TextBox4Visibility}" Foreground="Blue" Background="LawnGreen" FontWeight="Bold" FontSize="18" Width="600" Margin="19,143,0,0"/>
+        <TextBox Name="textBox5" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Text="{Binding TextBox5Text}" Visibility="{Binding TextBox5Visibility}" Foreground="Blue" Background="LawnGreen" FontWeight="Bold" FontSize="18" Width="600" Margin="19,173,0,0"/>
+        <TextBox Name="textBox6" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Text="{Binding TextBox6Text}" Visibility="{Binding TextBox6Visibility}" Foreground="Blue" Background="LawnGreen" FontWeight="Bold" FontSize="18" Width="600" Margin="19,203,0,0"/>
+        <TextBox Name="textBox7" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Text="{Binding TextBox7Text}" Visibility="{Binding TextBox7Visibility}" Foreground="Blue" Background="LawnGreen" FontWeight="Bold" FontSize="18" Width="600" Margin="19,233,0,0"/>
+        <TextBox Name="textBox8" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Text="{Binding TextBox8Text}" Visibility="{Binding TextBox8Visibility}" Foreground="Blue" Background="LawnGreen" FontWeight="Bold" FontSize="18" Width="600" Margin="19,263,0,0"/>
+        <TextBox Name="textBox9" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Text="{Binding TextBox9Text}" Visibility="{Binding TextBox9Visibility}" Foreground="Blue" Background="LawnGreen" FontWeight="Bold" FontSize="18" Width="600" Margin="19,293,0,0"/>
+        <TextBox Name="textBox10" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Text="{Binding TextBox10Text}" Visibility="{Binding TextBox10Visibility}" Foreground="Blue" Background="LawnGreen" FontWeight="Bold" FontSize="18" Width="600" Margin="19,323,0,0"/>
+
+    </Grid>
+</Window>
